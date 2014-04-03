@@ -1,0 +1,42 @@
+﻿生成启动时间为 2014/4/3 13:55:44。
+     1>项目“D:\DsoFramer\Source\dsoframer.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\dsoframer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       Midl:
+         所有输出均为最新。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm- /EHsc /MTd /Zp4 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt classfactory.cpp dsofauto.cpp dsofcontrol.cpp dsofdocobj.cpp dsofprint.cpp mainentry.cpp utilities.cpp
+         classfactory.cpp
+         dsofauto.cpp
+         dsofcontrol.cpp
+         dsofdocobj.cpp
+     1>dsofdocobj.cpp(1861): warning C4101: “CDsoDocObject::SetRunningServerLock::ifoo::_uncall”: 未引用的局部变量
+         dsofprint.cpp
+         mainentry.cpp
+         utilities.cpp
+         正在生成代码...
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug/dsoframer.ocx" /VERSION:"1.2" /INCREMENTAL:NO /NOLOGO oledlg.lib urlmon.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /DEF:".\dsoframer.def" /MANIFEST /ManifestFile:".\Debug\dsoframer.ocx.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/dsoframer.pdb" /MAP:".\Debug/dsoframer.map" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x22000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug/dsoframer.lib" /MACHINE:X86 /DLL .\Debug\dsoframer.res
+         .\Debug/classfactory.obj
+         .\Debug/dsofauto.obj
+         .\Debug/dsofcontrol.obj
+         .\Debug/dsofdocobj.obj
+         .\Debug/dsofprint.obj
+         .\Debug/mainentry.obj
+         .\Debug/utilities.obj
+            正在创建库 .\Debug/dsoframer.lib 和对象 .\Debug/dsoframer.exp
+         dsoframer.vcxproj -> D:\DsoFramer\Source\.\Debug\dsoframer.ocx
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Debug/dsoframer.ocx;#2" /manifest .\Debug\dsoframer.ocx.intermediate.manifest
+       CustomBuildStep:
+       正在跳过目标“CustomBuildStep”，因为所有输出文件相对于输入文件而言都是最新的。
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\dsoframer.unsuccessfulbuild”。
+         正在对“.\Debug\dsoframer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\DsoFramer\Source\dsoframer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:08.52
